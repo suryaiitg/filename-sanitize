@@ -1,0 +1,19 @@
+{
+  "name": "filename-sanitize",
+  "version": "0.0.1",
+  "description": "sanitize file name to only have alphanumeric",
+  "devDependencies": {},
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/impartusdev/fullmoon/src/master/"
+  },
+  "license": "MIT",
+  "scripts": {},
+  "main": "index.js",
+  "keywords": [
+    "filename",
+    "sanitize"
+  ],
+  "author": "surya.iitg"
+}
