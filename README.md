@@ -8,6 +8,8 @@ Will take a filename and remove all special characters from it and change them t
 
 filename-sanitize does not have any dependencies
 
+npm i filename-sanitize --save
+
 ## Usage
 
 By default it will add a timestamp to the filename
