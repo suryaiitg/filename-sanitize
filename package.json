@@ -6,7 +6,7 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/impartusdev/fullmoon/src/master/"
+    "url": "https://github.com/suryaiitg/filename-sanitize.git"
   },
   "license": "MIT",
   "scripts": {},
