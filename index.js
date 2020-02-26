@@ -16,7 +16,7 @@ module.exports = (fileName, options) => {
     fileExtension = '';
   }
 
-  fileNameWOExtension = fileNameWOExtension.replace(/[^a-z0-9]+/gi, '_');
+  fileNameWOExtension = fileNameWOExtension.replace(/[^a-z0-9]+/gi, '_').replace(`/[_+]/g`, '_');
 
   return fileNameWOExtension + (options.timestamp ? ('_' + options.timestampValue) : '') + (fileExtension ? '.' : '') + fileExtension;
 };
