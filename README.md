@@ -27,29 +27,29 @@ By default it will add a timestamp to the filename
 
 options can be passed as second argument: an object with these key values
 
-timestamp: boolean
-
-timestampValue: 12345 //Some number/string of your choice
+##timestamp: boolean
 
 ```javascript
   const sanitize = require('filename-sanitize');
 
   let filename = 'abc@def,ghi.zzz';
   filename = sanitize(filename, {
-  timestamp: false
-});
+    timestamp: false
+  });
   console.log(filename);
   //'abc_def_ghi.zzz'
 
 ```
 
+##timestampValue: 12345 //Some number/string of your choice, default is current timestamp
+
 ```javascript
   const sanitize = require('filename-sanitize');
 
   let filename = 'abc@def,ghi.zzz';
   filename = sanitize(filename, {
-  timestampValue: 12345
-});
+    timestampValue: 12345
+  });
   console.log(filename);
   //'abc_def_ghi_12345.zzz'
 
